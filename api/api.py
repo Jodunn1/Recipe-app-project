@@ -20,9 +20,9 @@ class Recipe(db.Model):
     def __repr__(self):
         return f"Recipe(id={self.id}, title='{self.title}', description='{self.description}', servings={self.servings})"
 
-# with app.app_context():
-#     db.create_all()
-#     db.session.commit()
+with app.app_context():
+    db.create_all()
+    db.session.commit()
 
 # Route to fetch all recipes
 
