@@ -24,9 +24,6 @@ with app.app_context():
     db.create_all()
     db.session.commit()
 
-# Route to fetch all recipes
-
-
 @app.route('/api/recipes', methods=['GET'])
 def get_all_recipes():
     recipes = Recipe.query.all()
@@ -49,7 +46,6 @@ def get_all_recipes():
 @app.route('/api/recipes', methods=['POST'])
 def add_recipe():
     data = request.get_json()
-    # Validate the incoming JSON data for required fields
     required_fields = ['title', 'ingredients',
                        'instructions', 'servings', 'description', 'image_url']
 
