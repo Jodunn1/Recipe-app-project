@@ -5,7 +5,7 @@ Welcome to the **Recipe App** – a simple and user-friendly application that al
 
 With the Recipe App, you can:
 
-- **Create Recipes** – Add your own custom recipes, complete with ingredients and instructions.
+- **Create Recipes** – Add your own custom recipes, complete with ingredients, instructions, description, image of the dish and servings amount.
   ![React-app4](https://github.com/user-attachments/assets/be41f8d6-d224-453e-9c0c-f2c074a82259)
 
 - **View Recipes** – Browse all the recipes you've added in a clean, readable format.
